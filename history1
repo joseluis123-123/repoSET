@@ -1,0 +1,5 @@
+###Se especifica que los comandos se almacenen en el archivo HISTORY al momento de ser ejecutado, en lugar
+###de finalizar la sesión
+#!/bin/bash
+histsize= 4000      ##la cantidad de comandos que se recuerdan
+histfilesize= 5000  ##la cantidad de comandos que se guardan en el archivo ~.bash_history
